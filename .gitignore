@@ -1,0 +1,27 @@
+cd ~
+nano .gitignore
+# Системные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Настройки окружения
+.env
+.venv/
+env/
+venv/
+.virtualenvs/
+
+# Кэш и логи
+.cache/
+*.log
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# Файлы PythonAnywhere и прочие
+.python_history
+.ipython/
